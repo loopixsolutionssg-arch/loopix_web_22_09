@@ -107,7 +107,7 @@ export default function Portfolio() {
         </Typography>
         <Grid container spacing={3}>
           <Grid item xs={12} md={4}>
-            <Paper elevation={0} className="glass-card" sx={{ p: 2, height: { md: 560 }, overflow: { xs: 'visible', md: 'hidden' } }}>
+            <Paper elevation={0} className="glass-card" sx={{ p: 2, height: { md: 266 }, overflow: { xs: 'visible', md: 'hidden' } }}>
               <Typography variant="subtitle1" sx={{ fontWeight: 700, mb: 1 }}>
                 Projects
               </Typography>
