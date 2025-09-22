@@ -25,22 +25,22 @@ export default function Header() {
           </Box>
         </Box>
         <Box sx={{ display: { xs: "none", sm: "flex" }, alignItems: "center", gap: 2 }}>
-          <Link underline="none" color="text.primary" href="#about" sx={{ fontWeight: 500 }}>
+          <Link underline="none" color="text.primary" href="/#about" sx={{ fontWeight: 500 }}>
             About
           </Link>
-          <Link underline="none" color="text.primary" href="#services" sx={{ fontWeight: 500 }}>
+          <Link underline="none" color="text.primary" href="/#services" sx={{ fontWeight: 500 }}>
             Services
           </Link>
-          <Link underline="none" color="text.primary" href="#industries" sx={{ fontWeight: 500 }}>
+          <Link underline="none" color="text.primary" href="/#industries" sx={{ fontWeight: 500 }}>
             Industries
           </Link>
-          <Link underline="none" color="text.primary" href="#portfolio" sx={{ fontWeight: 500 }}>
+          <Link underline="none" color="text.primary" href="/#portfolio" sx={{ fontWeight: 500 }}>
             Portfolio
           </Link>
-          <Link underline="none" color="text.primary" href="#contact" sx={{ fontWeight: 500 }}>
+          <Link underline="none" color="text.primary" href="/#contact" sx={{ fontWeight: 500 }}>
             Contact
           </Link>
-          <Button variant="contained" color="primary" href="#contact" sx={{ borderRadius: 2, px: 2.5 }}>
+          <Button variant="contained" color="primary" href="/#contact" sx={{ borderRadius: 2, px: 2.5 }}>
             Get Started
           </Button>
         </Box>

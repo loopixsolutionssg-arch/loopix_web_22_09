@@ -20,11 +20,11 @@ export default function Footer() {
             </Box>
           </Box>
           <Stack direction="row" spacing={2}>
-            <Link underline="none" color="text.primary" href="#">Home</Link>
-            <Link underline="none" color="text.primary" href="#about">About</Link>
-            <Link underline="none" color="text.primary" href="#services">Services</Link>
-            <Link underline="none" color="text.primary" href="#portfolio">Portfolio</Link>
-            <Link underline="none" color="text.primary" href="#contact">Contact</Link>
+            <Link underline="none" color="text.primary" href="/">Home</Link>
+            <Link underline="none" color="text.primary" href="/#about">About</Link>
+            <Link underline="none" color="text.primary" href="/#services">Services</Link>
+            <Link underline="none" color="text.primary" href="/#portfolio">Portfolio</Link>
+            <Link underline="none" color="text.primary" href="/#contact">Contact</Link>
           </Stack>
           <Stack direction="row" spacing={1.5}>
             <Link aria-label="LinkedIn" href="https://www.linkedin.com" target="_blank" rel="noopener">
