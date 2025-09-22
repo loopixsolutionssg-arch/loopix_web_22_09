@@ -107,7 +107,7 @@ export default function Portfolio() {
         </Typography>
         <Grid container spacing={3}>
           <Grid item xs={12} md={4}>
-            <Paper elevation={0} className="glass-card" sx={{ p: 2, height: { md: 560 }, overflow: { xs: 'visible', md: 'hidden' } }}>
+            <Paper elevation={0} className="glass-card" sx={{ p: 2, height: { md: 266 }, overflow: { xs: 'visible', md: 'hidden' } }}>
               <Typography variant="subtitle1" sx={{ fontWeight: 700, mb: 1 }}>
                 Projects
               </Typography>
@@ -124,7 +124,7 @@ export default function Portfolio() {
                           setSelectedId(p.id);
                         }}
                         selected={p.id === selectedId}
-                        sx={{ alignItems: 'flex-start', gap: 2, borderRadius: 1 }}
+                        sx={{ alignItems: 'flex-start', gap: 2, borderRadius: 1, p: '8px 69px 8px 16px', mr: '1px' }}
                       >
                         <Avatar variant="rounded" src={p.images[0]} alt={p.title} sx={{ width: 64, height: 64 }} imgProps={{ onError:(e:any)=>{ e.currentTarget.src='data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2764%27 height=%2764%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%23e6f7fb%27 rx=%279%27/%3E%3Ctext x=%2732%27 y=%2738%27 text-anchor=%27middle%27 font-size=%2710%27 fill=%27%23008aa0%27 font-family=%27Inter,Arial,sans-serif%27%3EImg%3C/text%3E%3C/svg%3E' } , crossOrigin: 'anonymous'}} />
                         <ListItemText

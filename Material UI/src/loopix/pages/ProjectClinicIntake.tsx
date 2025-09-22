@@ -43,7 +43,7 @@ export default function ProjectClinicIntake(){
       <main>
         <Container maxWidth="lg" sx={{ py: { xs: 4, md: 8 } }}>
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", mb: 3 }}>
-            <Button component="a" href="/portfolio" startIcon={<ArrowBackIcon />} variant="outlined">
+            <Button component="a" href="/" startIcon={<ArrowBackIcon />} variant="outlined">
               Back to Portfolio
             </Button>
           </Box>
