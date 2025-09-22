@@ -27,7 +27,7 @@ export default function Footer() {
             <Link underline="none" color="text.primary" href="/#contact">Contact</Link>
           </Stack>
           <Stack direction="row" spacing={1.5}>
-            <Link aria-label="LinkedIn" href="https://www.linkedin.com" target="_blank" rel="noopener">
+            <Link aria-label="LinkedIn" href="https://www.linkedin.com/in/ajith-sabu-885b79382/" target="_blank" rel="noopener">
               <LinkedInIcon />
             </Link>
             <Link aria-label="Email" href="mailto:loopixsolutionssg@gmail.com">
